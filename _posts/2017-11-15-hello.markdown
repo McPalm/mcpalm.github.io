@@ -17,7 +17,7 @@ Im a massiva My Little Pony nerd. Got suckered right into that about 5 years ago
 
 Let me see if I can get a picture linked with some cute ponies to end this post with!
 
-[picture](url?)
+![picture]({{"/assets/ButTheHatStaysOn.png" | absolute_url}})
 
 [repo]: https://github.com/McPalm/EquestrianAdventurer
 [game]: https://mcpalm.itch.io/equestrian-adventurer?secret=Vo633P35BWZLjvVCGPUuwAkL5ms
