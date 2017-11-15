@@ -12,9 +12,10 @@ $spacing-unit:     30px !default;
 
 $text-color:       rgb(255, 255, 255) !default;
 $background-color: #757575 !default;
-$brand-color:      #fff562 !default;
+$brand-color:      #bfff62 !default;
+$dark-color:       #363636 !default;
 
-$grey-color:       #bfff62 !default;
+$grey-color:       #e0ffa7 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
@@ -45,7 +46,7 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "highlight"
 ;
 
 /**
@@ -54,4 +55,10 @@ $on-laptop:        800px !default;
 
  .home-icon {
      height: 45px
+ }
+
+ pre,
+ code {
+    border: 1px solid black;
+    background-color: $dark-color
  }
