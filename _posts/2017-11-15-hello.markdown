@@ -4,4 +4,20 @@ title:  "Hello!"
 date:   2017-11-15 12:00:00 -0600
 categories: hello
 ---
-Hello World!
+Hello
+
+My name is Markus Palm, or Louise Palm, or just Palm based on how you know me. most people call me Palm.
+
+Im a 30 year old nerd, ive been a hobby programmer for about half my life at this point.
+Never dabbled in web development tho, this is most interesting.
+Most of my experince with programming is C# through using Unity, making random stuffs.
+Right now im working on a shitty adventure game! I got it all shared and available on [Github][repo], and a playable web version can be found over at [itch.io][game].
+
+Im a massiva My Little Pony nerd. Got suckered right into that about 5 years ago. Its silly cute and fun.
+
+Let me see if I can get a picture linked with some cute ponies to end this post with!
+
+[picture](url?)
+
+[repo]: https://github.com/McPalm/EquestrianAdventurer
+[game]: https://mcpalm.itch.io/equestrian-adventurer?secret=Vo633P35BWZLjvVCGPUuwAkL5ms
