@@ -14,8 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Palms Ramblings
-author: Palm
+author: Palm 
 email: tauman.exe@gmail.com
+image: assets/BitAssembly.png
 github_username:  McPalm
 description: >- # this means to ignore newlines until "baseurl:"
   This is a mock blog in wich I do my examinations.
