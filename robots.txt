@@ -1,2 +1,2 @@
 agent: *
-disallow: /assets
+disallow: /assets/
