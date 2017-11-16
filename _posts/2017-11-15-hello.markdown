@@ -3,6 +3,7 @@ layout: post
 title:  "Hello!"
 date:   2017-11-15 12:00:00 -0600
 categories: hello
+comments: true
 ---
 My name is Markus Palm, or Louise Palm, or just Palm based on how you know me. Most people call me Palm.
 
