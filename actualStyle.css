@@ -4,7 +4,7 @@ body {
   --main: #76d669;
   --main-dark: #865f23;
   --main-bright: rgb(185, 255, 168);
-  --gray: #aaa;
+  --gray: rgb(224, 224, 224);
   --contrast: rgb(109, 9, 183);
   --clear: rgba(0, 0, 0, 0);
 }
@@ -13,18 +13,27 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  background-color: var(--gray);
+  display: grid;
+  min-height: 100%;
 }
-header
-{
-    width: 100%;
+header {
+  width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .header {
   background-image: linear-gradient(to bottom, var(--clear) 70%, black 100%),
     url("Assets/PatreonBanner.png");
-  height: 550px;
+  background-attachment: fixed;
+  height: 350px;
   border-bottom: solid black 4px;
   width: 100%;
   margin: 0;
@@ -35,14 +44,24 @@ header
   height: 100%;
 }
 
+.hover-near-bottom {
+  margin-bottom: 75px;
+  margin-top: auto;
+}
+
+section
+{
+    background-color: var(--white);
+}
+
+
+
 .header h1 {
   font-weight: 200;
   color: var(--white);
   font-size: 400%;
   width: 100%;
   text-align: left;
-  margin-top: auto;
-  margin-bottom: 0.5ex;
 }
 
 .user-avatar {
@@ -50,18 +69,31 @@ header
   border: solid var(--main-dark) 4px;
   height: 100px;
   width: 100px;
-  margin: auto 2em 2ex 0%;
 }
 
 .center-body {
   width: 1050px;
   max-width: 100%;
   margin: 0 auto;
+  padding: 3em 3em;
+}
+ p {
+     line-height: 200%;
+ }
+
+ .footer
+{
+    background-color: var(--main-dark);
+    padding-bottom: 1em;
 }
 
-.category
+.footer span:last-child
 {
-    border: solid var(--black) 4px;
-    border-radius: .5ex;
-    background-color: var(--white);
+    float:right;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: var(--main-bright);
 }
