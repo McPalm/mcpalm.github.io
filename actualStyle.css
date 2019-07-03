@@ -54,7 +54,9 @@ header
 }
 
 .center-body {
-
+  width: 1050px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .category
