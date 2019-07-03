@@ -19,6 +19,7 @@ body {
 header
 {
     width: 100%;
+    margin:0;
 }
 .header {
   background-image: linear-gradient(to bottom, var(--clear) 70%, black 100%),
