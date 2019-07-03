@@ -22,6 +22,7 @@ body {
     url("Assets/PatreonBanner.png");
   height: 550px;
   border-bottom: solid black 4px;
+  width: 100%;
 }
 
 .flex {
