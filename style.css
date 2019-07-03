@@ -74,6 +74,7 @@ header nav ul li a {
   padding: 38px 10px;
   text-decoration: none;
   color: var(--text-color1);
+  overflow: hidden;
 }
 
 section {
