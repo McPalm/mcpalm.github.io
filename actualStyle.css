@@ -52,9 +52,8 @@ header {
 section
 {
     background-color: var(--white);
+    margin-bottom: 2em;
 }
-
-
 
 .header h1 {
   font-weight: 200;
@@ -75,16 +74,19 @@ section
   width: 1050px;
   max-width: 100%;
   margin: 0 auto;
-  padding: 3em 3em;
+  padding: 2em 5em;
 }
  p {
-     line-height: 200%;
+     font-size: 22px;
+     line-height: 50px;
+     margin-bottom: 4em;
  }
 
  .footer
 {
     background-color: var(--main-dark);
     padding-bottom: 1em;
+    color: var(--main-bright);
 }
 
 .footer span:last-child
