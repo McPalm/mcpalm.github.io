@@ -16,7 +16,10 @@ body {
 body {
   margin: 0;
 }
-
+header
+{
+    width: 100%;
+}
 .header {
   background-image: linear-gradient(to bottom, var(--clear) 70%, black 100%),
     url("Assets/PatreonBanner.png");
