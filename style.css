@@ -14,6 +14,7 @@ body {
   margin: auto;
   color: var(--text-colour);
   background-color: var(--darkish);
+
 }
 html {
   background-color: rgb(37, 34, 36);
@@ -102,6 +103,10 @@ section > article {
   background-color: var(--read-background);
   margin: 1ex;
   padding: 1ex;
+}
+
+p {
+  line-height: 150%;
 }
 
 article img {
