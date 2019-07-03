@@ -19,14 +19,15 @@ body {
 header
 {
     width: 100%;
-    margin:0;
 }
+
 .header {
   background-image: linear-gradient(to bottom, var(--clear) 70%, black 100%),
     url("Assets/PatreonBanner.png");
   height: 550px;
   border-bottom: solid black 4px;
   width: 100%;
+  margin: 0;
 }
 
 .flex {
