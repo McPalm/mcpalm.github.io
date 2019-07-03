@@ -1,0 +1,60 @@
+body {
+  --white: #eee;
+  --black: #222;
+  --main: #76d669;
+  --main-dark: #865f23;
+  --main-bright: rgb(185, 255, 168);
+  --gray: #aaa;
+  --contrast: rgb(109, 9, 183);
+  --clear: rgba(0, 0, 0, 0);
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, var(--clear) 70%, black 100%),
+    url("Assets/PatreonBanner.png");
+  height: 550px;
+  border-bottom: solid black 4px;
+}
+
+.flex {
+  display: flex;
+  height: 100%;
+}
+
+.header h1 {
+  font-weight: 200;
+  color: var(--white);
+  font-size: 400%;
+  width: 100%;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: 0.5ex;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  border: solid var(--main-dark) 4px;
+  height: 100px;
+  width: 100px;
+  margin: auto 2em 2ex 0%;
+}
+
+.center-body {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.category
+{
+    border: solid var(--black) 4px;
+    border-radius: .5ex;
+    background-color: var(--white);
+}
