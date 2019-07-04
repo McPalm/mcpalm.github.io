@@ -71,14 +71,13 @@ section
 }
 
 .center-body {
-  width: 1050px;
+  width: 40em;
   max-width: 100%;
   margin: 0 auto;
   padding: 2em 5em;
 }
  p {
-     font-size: 22px;
-     line-height: 50px;
+     line-height: 2;
      margin-bottom: 4em;
  }
 
