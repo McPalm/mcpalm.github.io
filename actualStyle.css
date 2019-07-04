@@ -24,15 +24,15 @@ body {
   min-height: 100%;
 }
 header {
+  background-image: url("Assets/PatreonBanner.png");
+  background-attachment: fixed;
   width: 100%;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
 .header {
-  background-image: linear-gradient(to bottom, var(--clear) 70%, black 100%),
-    url("Assets/PatreonBanner.png");
-  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, var(--clear) 50%, black 100%);
   height: 350px;
   border-bottom: solid black 4px;
   width: 100%;
@@ -56,11 +56,12 @@ section
 }
 
 .header h1 {
-  font-weight: 200;
+  font-weight: 100;
   color: var(--white);
-  font-size: 400%;
+  font-size: 3rem;
   width: 100%;
   text-align: left;
+  margin-left: 2rem;
 }
 
 .user-avatar {
