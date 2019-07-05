@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bootstrap BBY</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <img
+          src="http://placekitten.com/120/120"
+          alt="logo"
+          class="navbar-brand"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="d-lg-flex flex-row-reverse collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="//bootswatch.com/sketchy/">Theme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank"  href="//placekitten.com">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank"  href="//fontawesome.com/icons/copyright?style=solid"><i class="fa fa-copyright"></i>-Symbol</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Assign2.html">Something</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-md-5">
+      <div class="row">
+        <img
+          src="https://placekitten.com/500/400"
+          alt="cyote kitten"
+          class="col-12 col-md-4 px-0 px-md-2"
+        />
+        <img
+          src="https://placekitten.com/500/450"
+          alt="cyote kitten"
+          class="col-12 col-md-4 px-0 px-md-2"
+        />
+        <img
+          src="https://placekitten.com/600/490"
+          alt="cyote kitten"
+          class="col-12 col-md-4 px-0 px-md-2"
+        />
+      </div>
+    </div>
+    <div class="container mt-md-5 px-0">
+      <div class="row">
+        <div class="col-12 px-0 col-md-8 m-auto">
+          <div id="slider1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#slider1" data-slide-to="0"></li>
+              <li data-target="#slider1" data-slide-to="1"></li>
+              <li data-target="#slider1" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active carousel-hack"
+                style="background-image: url(//placekitten.com/700/600);"
+              >
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Product One</h3>
+                  <p>Lorem ipsum dolor sit.</p>
+                </div>
+              </div>
+              <div
+                class="carousel-item carousel-hack"
+                style="background-image: url(//placekitten.com/720/500);"
+              ></div>
+              <div
+                class="carousel-item carousel-hack"
+                style="background-image: url(//placekitten.com/700/650);"
+              >
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Lorem ipsum dolor sit.</p>
+                </div>
+              </div>
+            </div>
+            <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider1" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-md-5">
+      <ul class="nav nav-tabs">
+        <li class="nav-item active">
+          <a class="nav-link" href="#one" data-toggle="tab">One</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#two" data-toggle="tab">Two</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#three" data-toggle="tab">Three</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#four" data-toggle="tab">Four</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div id="one" class="tab-pane fade active show">
+          <h3>ONE</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sed
+            illum dicta nulla labore, velit ex fugiat quisquam rerum distinctio
+            quis a consequatur veritatis omnis reprehenderit laborum?
+          </p>
+          <div class="container mt md 5">
+            <div class="row">
+              <div class="col-12 col-md-8">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input
+                      type="text"
+                      id="exampleInputName"
+                      class="form-control"
+                      placeholder="Enter Name"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >We'll never share your email with anyone else.</small
+                    >
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPhone">
+                      Phone Number
+                    </label>
+                    <input
+                      type="tel"
+                      id="exampleInputPhone"
+                      class="form-control"
+                      aria-describedby="phoneHelp"
+                      placeholder="XXX-XX XX XX XX"
+                    />
+                    <small id="phoneHelp" class="form-text text-muted"
+                      >We'll never share your phone number with anyone else, and
+                      store it only for recovery purposes.</small
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                  <button type="reset" class="btn btn-danger">Reset</button>
+                </form>
+              </div>
+
+              <img
+                class="col8 col-md-4 h-100 mt-2 mt-md-5"
+                src="//placekitten.com/900/500"
+                alt="just a cat"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="two" class="tab-pane fade">
+          <h3>TWO</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae at
+            assumenda quasi, laborum consequatur asperiores voluptate ea
+            expedita rerum fugit veniam consequuntur ex. Enim, tempore! Non fuga
+            dicta quisquam. Officiis dolorum, a eaque eveniet corporis quas,
+            distinctio qui quis libero eligendi consectetur at, aspernatur ut
+            iure sequi hic minus nam unde. Repellat ex tenetur qui deleniti
+            temporibus pariatur facere laborum esse magnam consectetur,
+            reprehenderit eum dicta provident recusandae placeat dolore sit!
+            Pariatur nam officiis explicabo, ab veritatis culpa ipsa quo commodi
+            vero quasi dolor qui temporibus error id dolore deleniti eaque odit
+            perspiciatis voluptatibus quibusdam. Eligendi aperiam maxime vero,
+            neque quae, consequuntur dolore aliquid quos, minima modi ipsa eum
+            velit rerum cum consequatur corrupti eius nemo suscipit repellat
+            doloremque! Cum suscipit saepe qui.
+          </p>
+        </div>
+        <div id="three" class="tab-pane fade">
+          <h3>THREE</h3>
+          <section class="container mt-md-5 px-0">
+            <div class="row">
+              <div class="col-12 px-0 col-md-8 m-auto">
+                <div id="slider2" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li
+                      class="active"
+                      data-target="#slider2"
+                      data-slide-to="0"
+                    ></li>
+                    <li data-target="#slider2" data-slide-to="1"></li>
+                    <li data-target="#slider2" data-slide-to="2"></li>
+                  </ol>
+
+                  <div class="carousel-inner">
+                    <div
+                      class="carousel-item active carousel-hack"
+                      style="background-image: url(//placekitten.com/700/600);"
+                    >
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Product One</h3>
+                        <p>Lorem ipsum dolor sit.</p>
+                      </div>
+                    </div>
+                    <div
+                      class="carousel-item carousel-hack"
+                      style="background-image: url(//placekitten.com/720/500);"
+                    ></div>
+                    <div
+                      class="carousel-item carousel-hack"
+                      style="background-image: url(//placekitten.com/700/650);"
+                    ></div>
+                  </div>
+                  <a
+                    href="#slider2"
+                    class="carousel-control-prev"
+                    data-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+
+                  <a
+                    href="#slider2"
+                    class="carousel-control-next"
+                    data-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div id="four" class="tab-pane fade">
+          <h3>FOUR</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sed
+            illum dicta nulla labore, velit ex fugiat quisquam rerum distinctio
+            quis a consequatur veritatis omnis reprehenderit laborum? Sed magnam
+            mollitia veniam placeat ex, ab asperiores id ratione harum dolores
+            illum autem quas possimus quia inventore. Ea ratione incidunt
+            mollitia fuga, voluptas vitae libero quisquam doloremque magni
+            quidem hic officia. Perferendis.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+            officiis voluptas dolor! Cumque natus rerum sunt ratione alias
+            consequatur consectetur, vel maxime rem modi molestiae in
+            repudiandae deleniti qui aliquid ab soluta perferendis blanditiis
+            quo. Nam placeat quia porro eos similique repellat molestias autem,
+            vel officia. Earum beatae reprehenderit nobis quod odio debitis! In,
+            facilis minus? Tenetur consequatur placeat aut labore sunt porro
+            repellendus illo architecto.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quidem
+            harum dolores. Tempora mollitia eum cupiditate veniam dolor eaque!
+            Illum, reiciendis hic modi alias illo at voluptatum suscipit esse
+            natus!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="py-5"></div>
+      <div class="fixed-bottom bg-dark py-3">
+        <div class="container d-flex justify-content-between">
+          <a href="#top" class="text-muted">Take me to the stars</a>
+          <i class="fa fa-copyright text-muted"> Bit Assembly</i>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

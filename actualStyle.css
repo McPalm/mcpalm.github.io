@@ -35,10 +35,11 @@ header {
   width: 100%;
   grid-row-start: 1;
   grid-row-end: 2;
+  text-shadow: 0 0 7px black;
 }
 
 .header {
-  background-image: linear-gradient(to bottom, var(--clear) 50%, black 100%);
+  background-image: linear-gradient(to bottom, var(--clear) 75%, black 100%);
   height: 350px;
   border-bottom: solid black 4px;
   width: 100%;
