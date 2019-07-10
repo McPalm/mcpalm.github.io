@@ -26,6 +26,9 @@ function handleInput(keyCode) {
       moveObjectRelative(player, 0, 1);
       break;
   }
+  if (HasWon()) {
+    document.getElementsByClassName("win")[0].classList.remove("hidden");
+  }
 }
 
 function tryPush(source, dx, dy) {
@@ -69,6 +72,31 @@ function objectAt(x, y) {
   });
 }
 
+function HasWon() {
+  return ButtonsPressed() == buttons.length;
+}
+
+function ButtonsPressed() {
+  var pushable = obstacles.filter(function(mapObject) {
+    return mapObject.push == true;
+  });
+
+  return obstacles
+    .filter(function(mapObject) {
+      return mapObject.push == true;
+    })
+    .filter(function(block) {
+      return HasButton(block.x, block.y);
+    }).length;
+}
+
+function HasButton(x, y) {
+  let index = buttons.findIndex(function(button) {
+    return x == button.x && y == button.y;
+  });
+  return index > -1;
+}
+
 function clamp(v, min, max) {
   return v < min ? min : v > max ? max : v;
 }
@@ -80,3 +108,8 @@ let wall2 = { x: 4, y: 4, id: "wall2" };
 let block = { x: 6, y: 6, id: "block1", push: true };
 obstacles.push(player, wall1, wall2, block);
 obstacles.forEach(refreshObject);
+
+let buttons = [];
+let button1 = { x: 1, y: 1, id: "button1" };
+buttons.push(button1);
+buttons.forEach(refreshObject);

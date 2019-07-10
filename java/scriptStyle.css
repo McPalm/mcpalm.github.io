@@ -2,16 +2,15 @@
   visibility: hidden;
 }
 
-.hide-able {
-}
-
 .playboard {
   display: grid;
   grid-template-columns: repeat(12, 64px);
   grid-template-rows: repeat(12, 64px);
+  background-color: #58737a;
 }
 
 .map-object {
+  z-index: 1;
   height: 64px;
   width: 64px;
   image-rendering: pixelated;
@@ -19,4 +18,23 @@
 
 .flip {
   transform: scaleX(-1);
+}
+
+.button {
+  z-index: 0;
+  height: 64px;
+  width: 64px;
+  image-rendering: pixelated;
+}
+
+.win {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: visible;
+  align-content: center;
+  white-space: nowrap;
+  z-index: 999;
+  color: white;
+  font-size: 3em;
 }
