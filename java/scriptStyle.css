@@ -1,0 +1,18 @@
+.hidden {
+  visibility: hidden;
+}
+
+.hide-able {
+}
+
+.playboard {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.map-object {
+  height: 64px;
+  width: 64px;
+  image-rendering: pixelated;
+}
