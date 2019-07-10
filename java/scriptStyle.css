@@ -16,3 +16,7 @@
   width: 64px;
   image-rendering: pixelated;
 }
+
+.flip {
+  transform: scaleX(-1);
+}

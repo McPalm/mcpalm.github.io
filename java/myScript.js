@@ -10,6 +10,7 @@ function handleInput(keyCode) {
     case 37:
       tryPush(player, -1, 0);
       moveObjectRelative(player, -1, 0);
+      document.getElementById("player").classList.remove("flip");
       break;
     case 38:
       tryPush(player, 0, -1);
@@ -18,6 +19,7 @@ function handleInput(keyCode) {
     case 39:
       tryPush(player, 1, 0);
       moveObjectRelative(player, 1, 0);
+      document.getElementById("player").classList.add("flip");
       break;
     case 40:
       tryPush(player, 0, 1);
